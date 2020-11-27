@@ -14,14 +14,11 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+## After download project
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+First run `npm install` in terminal/cmd for installing node modules
 
-## Running end-to-end tests
+## Serve Project
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Run `ng serve` command in terminal and open in browser.Navigate to `http://localhost:4200/`
+# AngularAssignments
