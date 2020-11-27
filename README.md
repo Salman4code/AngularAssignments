@@ -1,4 +1,4 @@
-# TestAngular
+# AngularAssignments
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.12.
 
@@ -21,4 +21,3 @@ First run `npm install` in terminal/cmd for installing node modules
 ## Serve Project
 
 Run `ng serve` command in terminal and open in browser.Navigate to `http://localhost:4200/`
-# AngularAssignments

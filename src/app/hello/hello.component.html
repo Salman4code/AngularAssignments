@@ -1,0 +1,19 @@
+<form
+  [formGroup]="formGroup"
+  style="text-align: center; background-color: aqua"
+>
+  <h3>Food Choice form</h3>
+  <label>Favourite Food :</label
+  ><input type="text" formControlName="favFood" /><br /><br />
+  <label>Favourite Fruit :</label
+  ><input type="text" formControlName="favFruit" /> <br /><br />
+  <div *ngIf="formGroup.value.favFood">
+    Your favourite food is
+    <strong>{{ formGroup.value.favFood }} </strong>
+  </div>
+  <div *ngIf="formGroup.value.favFruit">
+    Your favourite fruit is
+    <strong>{{ formGroup.value.favFruit }} </strong>
+  </div>
+</form>
+<br />
